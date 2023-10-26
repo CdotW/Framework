@@ -5,4 +5,5 @@ local Env               = CNDT.Env
 local Action            = Action
 local CONST             = Action.CONST
 local Listener          = Action.Listener
-local LossOfControlCreate
+local Create            = Action.Create
+local GetToggle = Action.GetToggle
