@@ -141,7 +141,7 @@ A[3] = function (icon, isMulti)
     local T29has4P = Player:HasTier("Tier29", 4)
 
     local function DamageRotation(unitID)
-        local inMelee = A.MortalStike:IsInRange(unitID)
+        local inMelee = A.MortalStrike:IsInRange(unitID)
         local useBurst = BurstIsON(unitID) and (Unit(unitID):TimeToDie() > 15 or TTD > 15)
     end
 end
