@@ -127,7 +127,7 @@ local Temp   = {
     },
 }
 
--- [🚧✔️- 3] [🚧 - ⁡⁣⁢⁣𝗦𝗧 𝙍𝙊𝙏𝘼𝙏𝙄𝙊𝙉⁡ - 🚧] - the main rotation for ST mostly
+-- [🚧✔️- ⁡⁢⁣⁢𝟯⁡] [🚧 - ⁡⁣⁢⁣𝗦𝗧 𝙍𝙊𝙏𝘼𝙏𝙄𝙊𝙉⁡ - 🚧] - the main rotation for ST mostly
 A[3] = function(icon, isMulti)
     local isMoving = A.Player:IsMoving()
     local inCombat = Unit(player):CombatTime()
@@ -147,9 +147,10 @@ A[3] = function(icon, isMulti)
     end
 end
 
--- [🚧✔️- 1] [🚧 - CC ANTIFAKE ROTATION - 🚧] - 
+-- [🚧✔️- ⁡⁢⁣⁢𝟭⁡⁡] [🚧 ⁡⁣⁣⁢-⁡ ⁡⁣⁣⁢CC⁡ ⁡⁣⁢⁢AntiFake⁡ ⁡⁣⁢⁣ROTATION⁡ ⁡⁣⁣⁢-⁡ 🚧] -
 A[1] = nil
 
+-- [🚧✔️- ⁡⁢⁣⁢2⁡⁡] [🚧 ⁡⁣⁣⁢-⁡ ⁡⁣⁣⁢KICK⁡ ⁡⁣⁢⁢AntiFake⁡ ⁡⁣⁢⁣ROTATION⁡  ⁡⁣⁣⁢- ⁡🚧] -
 A[2] = nil
 
 A[4] = nil
