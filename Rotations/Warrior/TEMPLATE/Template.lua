@@ -70,9 +70,9 @@ Action[ACTION_CONST_CLASS_SPEC] = {
 
 }
 Action:CreateEssencesFor(ACTION_CONST_CLASS_SPEC)
-local A = setmetatable(Action[ACTION_CONST_CLASS_SPEC], { __index = Action })
+local A      = setmetatable(Action[ACTION_CONST_CLASS_SPEC], { __index = Action })
 local player = "player"
-local pet = "pet"
+local pet    = "pet"
 local target = "target"
 
 local Temp   = {
@@ -125,14 +125,13 @@ local Temp   = {
     },
 }
 
-A[1] = nil
-A[2] = nil
-A[3] = function (icon, isMulti)
+
+A[3] = function(icon, isMulti)
     local isMoving = A.Player:IsMoving()
     local inCombat = Unit(player):CombatTime()
     local ShouldStop = Action.ShouldStop()
     local TTD = MultiUnits.GetByRangeAreaTTD(10)
-    local useRacial = A.GetToggle(1,"Racial")
+    local useRacial = A.GetToggle(1, "Racial")
     local rage = Player:Rage()
     local rageDeficit = Player:RageDeficit()
     local activeEnemies = MultiUnits.GetByRange(10, 4)
@@ -145,8 +144,17 @@ A[3] = function (icon, isMulti)
         local useBurst = BurstIsON(unitID) and (Unit(unitID):TimeToDie() > 15 or TTD > 15)
     end
 end
+
+A[1] = nil
+
+A[2] = nil
+
 A[4] = nil
+
 A[5] = nil
+
 A[6] = nil
+
 A[7] = nil
+
 A[8] = nil
