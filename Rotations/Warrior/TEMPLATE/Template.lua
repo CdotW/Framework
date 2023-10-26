@@ -7,3 +7,4 @@ local CONST             = Action.CONST
 local Listener          = Action.Listener
 local Create            = Action.Create
 local GetToggle = Action.GetToggle
+local GetState = Action.GetState
