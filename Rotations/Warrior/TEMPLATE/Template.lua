@@ -1,3 +1,5 @@
+-- [🚧✔️] [𝗧𝗘𝗠𝗣𝗟𝗔𝗧𝗘] - Template for A Profiles Spec
+
 local _G, setmetatable                   = _G, setmetatable
 local TMW                                = TMW
 local CNDT                               = TMW.CNDT
