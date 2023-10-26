@@ -4,3 +4,5 @@ local CNDT              = TMW.CNDT
 local Env               = CNDT.Env
 local Action            = Action
 local CONST             = Action.CONST
+local Listener          = Action.Listener
+local LossOfControlCreate
