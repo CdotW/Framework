@@ -139,7 +139,10 @@ A[3] = function (icon, isMulti)
     Player:AddTier("Tier29", { 200426, 200428, 200423, 200425, 200427, })
     local T29has2P = Player:HasTier("Tier29", 2)
     local T29has4P = Player:HasTier("Tier29", 4)
-    
+
+    local function DamageRotation(unitID)
+        local useBurst = BurstIsON(unitID) and (Unit(unitID):TimeToDie() > 15 or TTD > 15)
+    end
 end
 A[4] = nil
 A[5] = nil
