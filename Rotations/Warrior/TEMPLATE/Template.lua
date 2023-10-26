@@ -1,4 +1,4 @@
--- [✔️- BASE] [⁡⁣⁣⁢🚧 - 𝗧𝗘𝗠𝗣𝗟𝗔𝗧𝗘 - 🚧⁡] - Template for A Profiles Spec
+-- [✔️- BASE] [⁡⁣⁣⁢🚧 - 𝙏𝙀𝙈𝙋𝙇𝘼𝙏𝙀 - 🚧⁡] - Template for A Profiles Spec
 
 local _G, setmetatable                   = _G, setmetatable
 local TMW                                = TMW
@@ -28,10 +28,9 @@ local pairs                              = pairs
 local ACTION_CONST_CLASS_SPEC            = CONST.CLASS_SPEC
 local ACTION_CONST_SPELLID_FREEZING_TRAP = CONST.SPELLID_FREEZING_TRAP
 
--- For Toaster
+-- [✔️- TOOL] [ ⁡⁢⁢⁣𝙏𝙊𝘼𝙎𝙏𝙀𝙍⁡ ] to display a toast message
 local Toaster                            = _G.Toaster
 local GetSpellTexture                    = _G.TMW.GetSpellTexture
-
 Toaster:Register("DarkosToast", function(toast, ...)
     local title, message, spellID = ...
     toast:SetTitle(title or "nil")
@@ -49,6 +48,7 @@ Toaster:Register("DarkosToast", function(toast, ...)
     toast:SetUrgencyLevel("very_low")
 end)
 
+-- [🚧✔️- SPELLS] [ ⁡⁢⁢⁣𝙑𝘼𝙍𝘼𝘽𝙇𝙀𝙎⁡ ] - to put each spell into a var to be used
 Action[ACTION_CONST_CLASS_SPEC] = {
     --Racial
     ArcaneTorrent     = Action.Create({ Type = "Spell", ID = 50613 }),
@@ -127,7 +127,7 @@ local Temp   = {
     },
 }
 
-
+-- [🚧✔️- 3] [🚧 - ⁡⁣⁢⁣𝗦𝗧 𝙍𝙊𝙏𝘼𝙏𝙄𝙊𝙉⁡ - 🚧] - the main rotation for ST mostly
 A[3] = function(icon, isMulti)
     local isMoving = A.Player:IsMoving()
     local inCombat = Unit(player):CombatTime()
@@ -147,6 +147,7 @@ A[3] = function(icon, isMulti)
     end
 end
 
+-- [🚧✔️- 1] [🚧 - CC ANTIFAKE ROTATION - 🚧] - 
 A[1] = nil
 
 A[2] = nil
