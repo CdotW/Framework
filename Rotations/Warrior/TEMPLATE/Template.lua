@@ -150,15 +150,20 @@ end
 -- [🚧✔️- ⁡⁢⁣⁢𝟭⁡⁡] [🚧 ⁡⁣⁣⁢-⁡ ⁡⁣⁣⁢CC⁡ ⁡⁣⁢⁢AntiFake⁡ ⁡⁣⁢⁣ROTATION⁡ ⁡⁣⁣⁢-⁡ 🚧] -
 A[1] = nil
 
--- [🚧✔️- ⁡⁢⁣⁢2⁡⁡] [🚧 ⁡⁣⁣⁢-⁡ ⁡⁣⁣⁢KICK⁡ ⁡⁣⁢⁢AntiFake⁡ ⁡⁣⁢⁣ROTATION⁡  ⁡⁣⁣⁢- ⁡🚧] -
+-- [🚧✔️- ⁡⁢⁣⁡⁢⁣⁢𝟮⁡⁡] [🚧 ⁡⁣⁣⁢-⁡ ⁡⁣⁣⁢KICK⁡ ⁡⁣⁢⁢AntiFake⁡ ⁡⁣⁢⁣ROTATION⁡  ⁡⁣⁣⁢- ⁡🚧] -
 A[2] = nil
 
+-- [🚧✔️- ⁡⁢⁣⁢4⁡⁡] [🚧 ⁡⁣⁣⁢-⁡ ⁡⁣⁣⁢KICK⁡ ⁡⁣⁢⁢AntiFake⁡ ⁡⁣⁢⁣ROTATION⁡  ⁡⁣⁣⁢- ⁡🚧] -
 A[4] = nil
 
+-- [🚧✔️- ⁡⁢⁣⁢5⁡] [🚧 ⁡⁣⁣⁢-⁡ ⁡⁣⁣⁢KICK⁡ ⁡⁣⁢⁢AntiFake⁡ ⁡⁣⁢⁣ROTATION⁡  ⁡⁣⁣⁢- ⁡🚧] -
 A[5] = nil
 
+-- [🚧✔️- ⁡⁢⁣⁢6⁡] [🚧 ⁡⁣⁣⁢-⁡ ⁡⁣⁣⁢KICK⁡ ⁡⁣⁢⁢AntiFake⁡ ⁡⁣⁢⁣ROTATION⁡  ⁡⁣⁣⁢- ⁡🚧] -
 A[6] = nil
 
+-- [🚧✔️- ⁡⁢⁣⁢𝟳⁡]🚧 ⁡⁣⁣⁢-⁡ ⁡⁣⁣⁢KICK⁡ ⁡⁣⁢⁢AntiFake⁡ ⁡⁣⁢⁣ROTATION⁡  ⁡⁣⁣⁢- ⁡🚧] -
 A[7] = nil
 
+-- [🚧✔️- ⁡⁢⁣⁢8⁡] [🚧 ⁡⁣⁣⁢-⁡ ⁡⁣⁣⁢KICK⁡ ⁡⁣⁢⁢AntiFake⁡ ⁡⁣⁢⁣ROTATION⁡  ⁡⁣⁣⁢- ⁡🚧] -
 A[8] = nil
