@@ -27,8 +27,8 @@ local IsIndoors, UnitIsUnit              = IsIndoors, UnitIsUnit
 local pairs                              = pairs
 local ACTION_CONST_CLASS_SPEC            = CONST.CLASS_SPEC
 local ACTION_CONST_SPELLID_FREEZING_TRAP = CONST.SPELLID_FREEZING_TRAP
-
--- [✔️- TOOL] [ ⁡⁢⁢⁣𝙏𝙊𝘼𝙎𝙏𝙀𝙍⁡ ] to display a toast message
+ 
+-- [⁡⁢⁢✔⁢⁡⁣⁢⁣⁡ ⁡- TOOL] [ ⁡⁢⁢⁣𝙏𝙊𝘼𝙎𝙏𝙀𝙍⁡ ] to display a toast message
 local Toaster                            = _G.Toaster
 local GetSpellTexture                    = _G.TMW.GetSpellTexture
 Toaster:Register("DarkosToast", function(toast, ...)
@@ -48,7 +48,7 @@ Toaster:Register("DarkosToast", function(toast, ...)
     toast:SetUrgencyLevel("very_low")
 end)
 
--- [🚧✔️- SPELLS] [ ⁡⁢⁢⁣𝙑𝘼𝙍𝘼𝘽𝙇𝙀𝙎⁡ ] - to put each spell into a var to be used
+-- [✔ - SPELLS] [ ⁡⁢⁢⁣𝙑𝘼𝙍𝘼𝘽𝙇𝙀𝙎⁡ ] - to put each spell into a var to be used
 Action[ACTION_CONST_CLASS_SPEC] = {
     --Racial
     ArcaneTorrent     = Action.Create({ Type = "Spell", ID = 50613 }),
