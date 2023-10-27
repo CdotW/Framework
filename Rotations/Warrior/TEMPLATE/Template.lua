@@ -1,5 +1,4 @@
 -- [✓⁡ ⁡- BASE] [⁡⁣⁣⁢🚧 - 𝙏𝙀𝙈𝙋𝙇𝘼𝙏𝙀 - 🚧⁡] - Template for A Profiles Spec
-
 local _G, setmetatable                   = _G, setmetatable
 local TMW                                = TMW
 local CNDT                               = TMW.CNDT
