@@ -27,7 +27,11 @@ local IsIndoors, UnitIsUnit              = IsIndoors, UnitIsUnit
 local pairs                              = pairs
 local ACTION_CONST_CLASS_SPEC            = CONST.CLASS_SPEC
 local ACTION_CONST_SPELLID_FREEZING_TRAP = CONST.SPELLID_FREEZING_TRAP
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> main
 -- [⁡⁢⁢✔⁢⁡⁣⁢⁣⁡ ⁡- TOOL] [ ⁡⁢⁢⁣𝙏𝙊𝘼𝙎𝙏𝙀𝙍⁡ ] to display a toast message
 local Toaster                            = _G.Toaster
 local GetSpellTexture                    = _G.TMW.GetSpellTexture
