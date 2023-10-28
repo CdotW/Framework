@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "F:/World of Warcraft/_retail_/Interface/AddOns/Acting"
+		}
+	],
+	"settings": {
+		"gitdoc.enabled": false,
+		"Lua.diagnostics.globals": [
+			"message",
+			"SPELLS"
+		]
+	}
+}
